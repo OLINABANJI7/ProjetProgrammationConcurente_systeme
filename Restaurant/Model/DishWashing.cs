@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    class DishWashing
+    public class DishWashing
     {
         
         private WasherUp washerUp;
