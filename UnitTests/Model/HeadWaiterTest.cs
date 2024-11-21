@@ -2,7 +2,7 @@
 using SpriteLibrary;
 using Xunit;
 
-namespace UniProject.TeststTests
+namespace Project.Tests.Model
 {
     public class HeadWaiterTest
     {
@@ -29,7 +29,7 @@ namespace UniProject.TeststTests
             var headWaiter = new HeadWaiter(0, 0);
 
             // Act & Assert
-            Assert.Null(headWaiter.sprite); 
+            Assert.Null(headWaiter.sprite);
         }
 
     }

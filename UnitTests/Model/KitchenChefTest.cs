@@ -1,8 +1,7 @@
-﻿using Project;
-using SpriteLibrary;
+﻿using SpriteLibrary;
 using Xunit;
 
-namespace Project.Tests
+namespace Project.Tests.Model
 {
     public class KitchenChefTest
     {

@@ -1,7 +1,6 @@
-﻿using Project;
-using Xunit;
+﻿using Xunit;
 
-namespace Project.Tests
+namespace Project.Tests.Model
 {
     public class ModelTest
     {

@@ -1,8 +1,7 @@
-﻿using Project;
-using Xunit;
+﻿using Xunit;
 using System.Collections.Generic;
 
-namespace Project.Tests
+namespace Project.Tests.Model
 {
     public class CookTest
     {

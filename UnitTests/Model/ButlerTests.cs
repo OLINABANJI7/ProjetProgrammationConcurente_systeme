@@ -1,10 +1,9 @@
-﻿using Project;
-using Xunit;
+﻿using Xunit;
 using SpriteLibrary;
 
-namespace Project.Tests
+namespace Project.Tests.Model
 {
-    public class ButlerTests
+    public class ButlerTest
     {
         [Fact]
         public void Constructor_ShouldInitializePosXAndPosY()
