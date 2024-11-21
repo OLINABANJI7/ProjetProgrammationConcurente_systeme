@@ -1,4 +1,5 @@
 ﻿using Xunit;
+using p=Project;
 
 namespace Project.Tests.Model
 {
@@ -7,7 +8,7 @@ namespace Project.Tests.Model
         [Fact]
         public void DefaultConstructor_ShouldInitializeComponents()
         {
-            var model = new Model();
+            var model = new p.Model();
 
             Assert.NotNull(model);
             Assert.NotNull(model.restaurationRoom);
@@ -18,7 +19,7 @@ namespace Project.Tests.Model
         [Fact]
         public void DefaultConstructor_ShouldInitializeMenuWithPlats()
         {
-            var model = new Model();
+            var model = new p.Model();
 
             Assert.NotNull(model.menu.plats);
             Assert.NotEmpty(model.menu.plats);
@@ -27,7 +28,7 @@ namespace Project.Tests.Model
         [Fact]
         public void DefaultConstructor_ShouldInitializeKitchenComponents()
         {
-            var model = new Model();
+            var model = new p.Model();
 
             Assert.NotNull(model.kitchen.kitchenChef);
             Assert.NotNull(model.kitchen.cooks);
@@ -38,7 +39,7 @@ namespace Project.Tests.Model
         [Fact]
         public void DefaultConstructor_ShouldInitializeRestaurationRoom()
         {
-            var model = new Model();
+            var model = new p.Model();
 
             Assert.NotNull(model.restaurationRoom);
         }
